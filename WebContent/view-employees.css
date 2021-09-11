@@ -1,0 +1,36 @@
+.view-employees > table {
+	width: 100%;
+	margin-top: 20px;
+	font-size: 15px;
+}
+
+.view-employees th {
+	padding: 5px 5px;
+	text-align: center;
+}
+
+.view-employees td {
+	padding: 10px 6px;
+	text-align: center;
+}
+
+.view-employees tr {
+}
+
+.view-employees tr:first-child {
+	background-color: var(--red) !important;
+	color: var(--pinkish-grey) !important;
+}
+
+.view-employees tr:nth-child(odd) {
+	background-color: var(--light-pink);
+	color: var(--dark-red);
+}
+
+.view-employees tr:nth-child(even) {
+	background-color: var(--pinkish-grey);
+	color: var(--dark-red);
+}
+
+th, td {
+}

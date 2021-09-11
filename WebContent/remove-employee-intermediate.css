@@ -1,0 +1,31 @@
+.remove-employee-intermediate .remove-message {
+	margin-top: 20px;
+	text-align: center;
+	color: var(--dark-red);
+}
+
+.remove-employee-intermediate .employee-details {
+	margin-top: 20px;
+}
+
+.remove-employee-intermediate .remove-employee-btn {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#remove-employee-final-form {
+	padding: 0;
+	border: none;
+	background-color: inherit;
+}
+
+#remove-employee-final-form > input {
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+#remove-employee-final-form > button {
+	margin-top: 0;
+}

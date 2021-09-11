@@ -1,0 +1,40 @@
+.updated-details {
+	text-align: center;
+}
+
+.updated-details form > div > p {
+	margin-right: 15px;
+}
+
+.updated-details .update-message {
+	margin-top: 20px;
+	color: var(--dark-red);
+}
+
+.updated-information {
+	margin-top: 20px;
+}
+
+.updated-information > h3 {
+	margin-bottom: 15px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	color: var(--dark-red);
+}
+
+.updated-information p {
+	padding: 5px;
+	text-align: left;
+	color: var(--medium-red);
+}
+
+.updated-information p > strong {
+	display: inline-block;
+	width: 170px;
+}
+
+.updated-information .highlight {
+	background-color: var(--light-pink);
+}

@@ -1,0 +1,45 @@
+.add-employee-confirmation > h4 {
+	margin-top: 20px;
+	color: var(--brown);
+}
+
+.add-employee-confirmation .employee-details {
+	margin-top: 30px;
+}
+
+.add-employee-confirmation .employee-detail-row {
+	display: flex;
+	align-items: flex-start;
+	font-size: 15px;
+}
+
+.add-employee-confirmation .employee-detail-attribute {
+	width: 130px;
+	padding: 10px 0;
+	color: var(--brown);
+}
+
+.add-employee-confirmation .employee-detail-value {
+	padding: 10px 0;
+	color: var(--dark-red);
+}
+
+.add-employee-confirmation .view-employees {
+	display: block;
+	width: fit-content;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 8px 12px;
+	transition: all 200ms ease-in;
+	color: var(--medium-red);
+}
+
+.add-employee-confirmation .view-employees:hover {
+	background-color: var(--pinkish-grey);
+}
+
+.add-employee-confirmation .message {
+	margin-top: 30px;
+	text-align: center;
+	color: var(--dark-red);
+}

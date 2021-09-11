@@ -1,0 +1,35 @@
+.not-login-body {
+	background-color: white;
+}
+
+.not-login-body > .container {
+	margin: 0 auto;
+	margin-top: 15vh;
+	width: 100%;
+	max-width: 400px;
+	padding: 20px;
+	border: 1px solid var(--grey);
+	border-radius: 10px;
+}
+
+.not-login-body > .container > h3 {
+	text-align: center;
+	font-size: 25px;
+	color: var(--dark-red);
+}
+
+.not-login-body > .container > p {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 20px;
+	color: var(--dark-red);
+}
+
+.not-login-body > .container > p > a {
+	color: var(--red);
+	transition: text-decoration 200ms ease-in;
+}
+
+.not-login-body > .container > p > a:hover {
+	text-decoration: underline;
+}

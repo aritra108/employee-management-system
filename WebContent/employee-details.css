@@ -1,0 +1,41 @@
+.employee-details {
+	margin-top: 40px;
+}
+
+.employee-details .header {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	color: var(--dark-red);
+}
+
+.employee-details .flex-container {
+	display: flex;
+	align-items: flex-start;
+	padding-top: 15px;
+}
+
+.employee-details .personal-details {
+	padding-right: 15vw;
+}
+
+.employee-details .detail-container > h3 {
+	color: var(--medium-red);
+	margin-bottom: 15px;
+}
+
+.employee-details .detail-container > p {
+	margin-bottom: 10px;
+	color: var(--brown);
+}
+
+.employee-details .detail-container > p > strong {
+	display: inline-block;
+	width: 140px;
+}
+
+.employee-details .no-employee {
+	text-align: center;
+	color: var(--medium-red);
+}
+

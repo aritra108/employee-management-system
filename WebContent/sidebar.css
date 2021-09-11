@@ -1,0 +1,58 @@
+.sidebar {
+	position: fixed;
+	top: 8vh;
+	left: 0;
+	height: 92vh;
+	width: 20vw;
+	background-color: var(--dark-red);
+}
+
+/* Sidebar Profile */
+.sidebar-profile {
+	display: flex;
+	align-items: flex-start;
+	padding: 30px 0;
+	padding-left: 20px;
+}
+
+.sidebar-profile > .avatar {
+	height: 50px;
+	width: 50px;
+	background-color: var(--light-pink);
+	color: var(--dark-red);
+	font-size: 26px;
+}
+
+.sidebar-profile > .admin-details > h3 {
+	color: var(--pink);
+}
+
+.sidebar-profile > .admin-details > p {
+	margin-top: 2px;
+	font-size: 15px;
+	color: var(--light-pink);
+}
+
+/* Sidebar Nav */
+.sidebar-items {
+	padding: 0 10px;
+}
+
+.sidebar-items > a {
+	display: flex;
+	align-items: center;
+	padding: 10px 0;
+	padding-left: 10px;
+	border-bottom: 1px solid var(--grey);
+	font-size: 18px;
+	color: var(--pinkish-grey);
+	transition: all 200ms ease-in;
+}
+
+.sidebar-items > a:hover {
+	background-color: var(--medium-red);
+}
+
+.sidebar-items > a > i {
+	width: 35px;
+}
